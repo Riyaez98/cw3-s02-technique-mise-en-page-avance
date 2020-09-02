@@ -155,6 +155,33 @@ body{
      width: 17vh;
  }
 
+ .citation{
+     height: 404px;
+     background: url("../images/bg-citation.jpg") fixed no-repeat;
+     background-size: cover;
+
+     color: var(--couleur-blanc);
+ }
+
+ .citation .conteneur{
+     padding: 89px 0;
+ }
+
+ .citation h3{
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .footer-principal{
+     height: 144px;
+     padding: 60px 0;
+     text-align: center;
+
+     color: var(--couleur-blanc);
+
+     background: var(--couleur-noir);
+ }
 
 /*---------------------- Components ----------------------*/
 /*---- Classes et id I guess ----*/
